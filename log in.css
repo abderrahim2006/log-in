@@ -1,0 +1,93 @@
+/* body{
+    padding: auto;
+    margin: 0%;
+    background-color:aquamarine ;
+    background-repeat: no-repeat;
+    background-attachment:;
+    background-size: cover;
+} */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 121, 198);
+    min-height: 100vh;
+    background-image: url(image/background-2579710_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.log-in{
+    background: transparent;
+    border: 2px solid #6026265e;
+    backdrop-filter:blur(30px);
+    padding: 10px 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+h1{
+    display: block;
+    font-size: 40px;
+    text-align: center;
+}
+.input-box{
+   width: 100%;
+   height: 50px;
+   position: relative;
+   margin: 30px 0;
+}
+.input-box input{
+    outline: none;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid #651212;
+    border-radius: 40px;
+    padding: 20px;
+    padding-right: 40px;
+}
+.input-box input::placeholder{
+    color: #651212;
+    
+}
+.input-box i{
+    position: absolute;
+    right:10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.ch{
+    display: flex;
+    font-size:20px;
+    justify-content: space-between;
+}
+.c{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 30px;
+    border-radius: 40px;
+    outline: none;
+    border: 2px solid #6026265e;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: inset 1px 2px 20px olive;
+}
